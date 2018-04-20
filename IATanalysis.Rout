@@ -1,0 +1,58 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R是自由软件，不带任何担保。
+在某些条件下你可以将其自由散布。
+用'license()'或'licence()'来看散布的详细条件。
+
+R是个合作计划，有许多人为之做出了贡献.
+用'contributors()'来看合作者的详细情况
+用'citation()'会告诉你如何在出版物中正确地引用R或R程序包。
+
+用'demo()'来看一些示范程序，用'help()'来阅读在线帮助文件，或
+用'help.start()'通过HTML浏览器来看帮助文件。
+用'q()'退出R.
+
+> # Set the path to the IAT folder here (be sure to include trailing slash)
+> # on Linux (use a single forward slash):
+> base.dir = "/opt/lampp/htdocs/"
+> # on Windows (use double forward slashes):
+> # base.dir = "C://Users//winteram//Documents//IAT//"
+> 
+> # File delimiter = '/' for Unix/Max, '//' for Windows
+> fd = '/'
+> 
+> # Set the template you want to analyze here
+> template.name = "gdufe"
+> output.dir = paste(base.dir,"templates",fd,template.name,fd,"output",fd,sep="")
+> 
+> setwd(output.dir)
+> output.files = list.files()
+> data.list = lapply(output.files, read.table, sep = ",")
+> summarized <- data.frame(matrix(ncol=9,nrow=length(data.list)))
+> names(summarized) <- c("Id","Date","Block4.m","Block4.sd","Block7.m","Block7.sd","diff","full.sd",'d')
+> 
+> for(i in 1:length(data.list))
++ {
++   filename = strsplit(output.files[i],'-')
++   id = filename[[1]][2]
++   iat.date = paste(filename[[1]][4],"-",filename[[1]][5],"-",filename[[1]][3]," ",filename[[1]][6],":",substr(filename[[1]][7],1,2),sep="")
++   block4.m = mean(as.numeric(unlist(subset(data.list[[i]], V1==3 & V6>300 & V6 < 3000, select="V6"))))
++   block7.m = mean(as.numeric(unlist(subset(data.list[[i]], V1==6 & V6>300 & V6 < 3000, select="V6"))))
++   block4.sd = sd(as.numeric(unlist(subset(data.list[[i]], V1==3 & V6>300 & V6 < 3000, select="V6"))))
++   block7.sd = sd(as.numeric(unlist(subset(data.list[[i]], V1==6 & V6>300 & V6 < 3000, select="V6"))))
++   full.sd = sd(as.numeric(unlist(subset(data.list[[i]], (V1==6 | V1==3) & V6>300 & V6 < 3000, select="V6"))))
++   diff = block7.m - block4.m
++   d = diff / full.sd
++   summarized[i,] = c(id, iat.date, block4.m, block4.sd, block7.m, block7.sd, diff, full.sd, d)
++ }
+> rm(block4.m,block4.sd,block7.m,block7.sd,d,data.list,diff,filename,full.sd,i,iat.date,id,output.files)
+> 
+> setwd(paste(base.dir,"templates",fd,template.name,sep=""))
+> write.csv(summarized, "summarized.csv")
+> 
+> proc.time()
+ 用户  系统  流逝 
+0.314 0.034 0.529 

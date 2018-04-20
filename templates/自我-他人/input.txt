@@ -1,0 +1,58 @@
+{
+    "name": "\u81ea\u6211-\u4ed6\u4eba",
+    "showResult": "show",
+    "IATtype": "two",
+    "catA": {
+        "label": "\u81ea\u6211",
+        "datalabel": "zw",
+        "itemtype": "txt",
+        "items": [
+            "\u6211",
+            "\u6211\u7684",
+            "\u4ffa",
+            "\u81ea\u5df1",
+            "\u54b1"
+        ]
+    },
+    "catB": {
+        "label": "\u4ed6\u4eba",
+        "datalabel": "tr",
+        "itemtype": "txt",
+        "items": [
+            "\u4ed6",
+            "\u4ed6\u7684",
+            "\u4ed6\u4eec",
+            "\u522b\u4eba",
+            "\u5176\u4ed6",
+            "\u5979"
+        ]
+    },
+    "cat1": {
+        "label": "\u6210\u529f",
+        "datalabel": "cg",
+        "itemtype": "txt",
+        "items": [
+            "\u96c4\u5fc3\u58ee\u5fd7",
+            "\u6301\u4e4b\u4ee5\u6052",
+            "\u597d\u5947\u6c42\u77e5",
+            "\u52e4\u594b",
+            "\u9ad8\u6548",
+            "\u4e0a\u8fdb",
+            "\u6709\u80fd\u529b"
+        ]
+    },
+    "cat2": {
+        "label": "\u4e0d\u6210\u529f",
+        "datalabel": "bcg",
+        "itemtype": "txt",
+        "items": [
+            "\u61d2\u60f0",
+            "\u62d6\u5ef6\u75c7",
+            "\u534a\u9014\u800c\u5e9f",
+            "\u51b7\u6f20",
+            "\u5f97\u8fc7\u4e14\u8fc7",
+            "\u4f4e\u6548",
+            "\u6ca1\u80fd\u529b"
+        ]
+    }
+}
