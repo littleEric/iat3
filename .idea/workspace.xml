@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb674204-6c7f-4946-9425-b50b6e485025" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/fileManager.php" afterPath="$PROJECT_DIR$/core/fileManager.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,69 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fileManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/fileManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="436" column="18" lean-forward="true" selection-start-line="436" selection-start-column="18" selection-end-line="436" selection-end-column="18" />
-              <folding>
-                <marker date="1524323500497" expanded="true" signature="4098:4107" ph="..." />
-                <marker date="1524323500497" expanded="true" signature="4481:4490" ph="..." />
-                <marker date="1524323500497" expanded="true" signature="14833:14921" ph="select * fro... Template" />
-                <marker date="1524323500497" expanded="true" signature="14977:15183" ph="INSERT INTO Result... " />
-                <marker date="1524323500497" expanded="true" signature="16503:16561" ph="INSERT INTO INSERT... " />
-                <marker date="1524323500497" expanded="true" signature="16633:16729" ph="INSERT INTO Template... " />
-                <marker date="1524323500497" expanded="true" signature="17244:17365" ph="select count... Category" />
-                <marker date="1524323500497" expanded="true" signature="17453:17576" ph="Select Categ... Category" />
-                <marker date="1524323500497" expanded="true" signature="17634:17745" ph="INSERT INTO Template_has_category... " />
-                <marker date="1524323500497" expanded="true" signature="18040:18083" ph="select count... Item" />
-                <marker date="1524323500497" expanded="true" signature="18168:18209" ph="select Itemi... Item" />
-                <marker date="1524323500497" expanded="true" signature="18268:18372" ph="select count... Category_has_item" />
-                <marker date="1524323500497" expanded="true" signature="18470:18565" ph="INSERT INTO Category_has_Item... " />
-                <marker date="1524323500497" expanded="true" signature="18676:18719" ph="select count... Item" />
-                <marker date="1524323500497" expanded="true" signature="18814:18852" ph="INSERT INTO Item... " />
-                <marker date="1524323500497" expanded="true" signature="18929:18970" ph="select Itemi... Item" />
-                <marker date="1524323500497" expanded="true" signature="19030:19134" ph="select count... Category_has_item" />
-                <marker date="1524323500497" expanded="true" signature="19234:19329" ph="INSERT INTO Category_has_Item... " />
-                <marker date="1524323500497" expanded="true" signature="19499:19603" ph="INSERT INTO Category... " />
-                <marker date="1524323500497" expanded="true" signature="19720:19830" ph="INSERT INTO Template_has_category... " />
-                <marker date="1524323500497" expanded="true" signature="20116:20159" ph="select count... Item" />
-                <marker date="1524323500497" expanded="true" signature="20244:20285" ph="select Itemi... Item" />
-                <marker date="1524323500497" expanded="true" signature="20344:20447" ph="select count... Category_has_item" />
-                <marker date="1524323500497" expanded="true" signature="20545:20639" ph="INSERT INTO Category_has_Item... " />
-                <marker date="1524323500497" expanded="true" signature="20750:20793" ph="select count... Item" />
-                <marker date="1524323500497" expanded="true" signature="20887:20925" ph="INSERT INTO Item... " />
-                <marker date="1524323500497" expanded="true" signature="21000:21041" ph="select Itemi... Item" />
-                <marker date="1524323500497" expanded="true" signature="21100:21203" ph="select count... Category_has_item" />
-                <marker date="1524323500497" expanded="true" signature="21301:21395" ph="INSERT INTO Category_has_Item... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IAT.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/js/IAT.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="459" column="0" lean-forward="true" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
-              <folding>
-                <marker date="1524324921753" expanded="true" signature="10431:10461" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="11142:11172" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="11819:11849" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="12542:13685" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="12550:13109" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="12591:13099" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="12633:13091" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="13117:13676" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="13158:13666" ph="..." />
-                <marker date="1524324921753" expanded="true" signature="13200:13658" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -82,6 +20,7 @@
       <find>$.get</find>
       <find>$.post</find>
       <find>WriteFile</find>
+      <find>.get</find>
       <find>fwrite</find>
     </findStrings>
   </component>
@@ -94,10 +33,11 @@
         <option value="$PROJECT_DIR$/index2.php" />
         <option value="$PROJECT_DIR$/wenjuan.php" />
         <option value="$PROJECT_DIR$/core/writebasicInfo.php" />
-        <option value="$PROJECT_DIR$/core/fileManager.php" />
         <option value="$PROJECT_DIR$/core/js/IAT.js" />
         <option value="$PROJECT_DIR$/exp.sql" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/core/fileManager.php" />
+        <option value="$PROJECT_DIR$/a.php" />
       </list>
     </option>
   </component>
@@ -141,20 +81,7 @@
             <path>
               <item name="iat3" type="b2602c69:ProjectViewProjectNode" />
               <item name="iat3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="iat3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iat3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="自我-他人" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="iat3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iat3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="自我-他人" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="output" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -165,6 +92,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,18 +121,17 @@
       <option name="presentableId" value="Default" />
       <updated>1524288623146</updated>
       <workItem from="1524288624794" duration="4602000" />
-      <workItem from="1524311875742" duration="11926000" />
+      <workItem from="1524311875742" duration="14462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16528000" />
+    <option name="totallyTimeSpent" value="19064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1263" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -235,35 +166,35 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1524323500497" expanded="true" signature="4098:4107" ph="..." />
-            <marker date="1524323500497" expanded="true" signature="4481:4490" ph="..." />
-            <marker date="1524323500497" expanded="true" signature="14833:14921" ph="select * fro... Template" />
-            <marker date="1524323500497" expanded="true" signature="14977:15183" ph="INSERT INTO Result... " />
-            <marker date="1524323500497" expanded="true" signature="16503:16561" ph="INSERT INTO INSERT... " />
-            <marker date="1524323500497" expanded="true" signature="16633:16729" ph="INSERT INTO Template... " />
-            <marker date="1524323500497" expanded="true" signature="17244:17365" ph="select count... Category" />
-            <marker date="1524323500497" expanded="true" signature="17453:17576" ph="Select Categ... Category" />
-            <marker date="1524323500497" expanded="true" signature="17634:17745" ph="INSERT INTO Template_has_category... " />
-            <marker date="1524323500497" expanded="true" signature="18040:18083" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="18168:18209" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="18268:18372" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="18470:18565" ph="INSERT INTO Category_has_Item... " />
-            <marker date="1524323500497" expanded="true" signature="18676:18719" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="18814:18852" ph="INSERT INTO Item... " />
-            <marker date="1524323500497" expanded="true" signature="18929:18970" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="19030:19134" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="19234:19329" ph="INSERT INTO Category_has_Item... " />
-            <marker date="1524323500497" expanded="true" signature="19499:19603" ph="INSERT INTO Category... " />
-            <marker date="1524323500497" expanded="true" signature="19720:19830" ph="INSERT INTO Template_has_category... " />
-            <marker date="1524323500497" expanded="true" signature="20116:20159" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="20244:20285" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="20344:20447" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="20545:20639" ph="INSERT INTO Category_has_Item... " />
-            <marker date="1524323500497" expanded="true" signature="20750:20793" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="20887:20925" ph="INSERT INTO Item... " />
-            <marker date="1524323500497" expanded="true" signature="21000:21041" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="21100:21203" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="21301:21395" ph="INSERT INTO Category_has_Item... " />
+            <marker date="1524331811193" expanded="true" signature="4098:4107" ph="..." />
+            <marker date="1524331811193" expanded="true" signature="4481:4490" ph="..." />
+            <marker date="1524331811193" expanded="true" signature="14810:14898" ph="select * fro... Template" />
+            <marker date="1524331811193" expanded="true" signature="14954:15160" ph="INSERT INTO Result... " />
+            <marker date="1524331811193" expanded="true" signature="16480:16538" ph="INSERT INTO INSERT... " />
+            <marker date="1524331811193" expanded="true" signature="16610:16706" ph="INSERT INTO Template... " />
+            <marker date="1524331811193" expanded="true" signature="17221:17342" ph="select count... Category" />
+            <marker date="1524331811193" expanded="true" signature="17430:17553" ph="Select Categ... Category" />
+            <marker date="1524331811193" expanded="true" signature="17611:17722" ph="INSERT INTO Template_has_category... " />
+            <marker date="1524331811193" expanded="true" signature="18017:18060" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="18145:18186" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="18245:18349" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="18447:18542" ph="INSERT INTO Category_has_Item... " />
+            <marker date="1524331811193" expanded="true" signature="18653:18696" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="18791:18829" ph="INSERT INTO Item... " />
+            <marker date="1524331811193" expanded="true" signature="18906:18947" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="19007:19111" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="19211:19306" ph="INSERT INTO Category_has_Item... " />
+            <marker date="1524331811193" expanded="true" signature="19476:19580" ph="INSERT INTO Category... " />
+            <marker date="1524331811193" expanded="true" signature="19697:19807" ph="INSERT INTO Template_has_category... " />
+            <marker date="1524331811193" expanded="true" signature="20093:20136" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="20221:20262" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="20321:20424" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="20522:20616" ph="INSERT INTO Category_has_Item... " />
+            <marker date="1524331811193" expanded="true" signature="20727:20770" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="20864:20902" ph="INSERT INTO Item... " />
+            <marker date="1524331811193" expanded="true" signature="20977:21018" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="21077:21180" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="21278:21372" ph="INSERT INTO Category_has_Item... " />
           </folding>
         </state>
       </provider>
@@ -272,16 +203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/writebasicInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1524290686518" expanded="true" signature="992:1207" ph="INSERT INTO `userinfo`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -345,44 +266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/fileManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="436" column="18" lean-forward="true" selection-start-line="436" selection-start-column="18" selection-end-line="436" selection-end-column="18" />
-          <folding>
-            <marker date="1524323500497" expanded="true" signature="4098:4107" ph="..." />
-            <marker date="1524323500497" expanded="true" signature="4481:4490" ph="..." />
-            <marker date="1524323500497" expanded="true" signature="14833:14921" ph="select * fro... Template" />
-            <marker date="1524323500497" expanded="true" signature="14977:15183" ph="INSERT INTO Result... " />
-            <marker date="1524323500497" expanded="true" signature="16503:16561" ph="INSERT INTO INSERT... " />
-            <marker date="1524323500497" expanded="true" signature="16633:16729" ph="INSERT INTO Template... " />
-            <marker date="1524323500497" expanded="true" signature="17244:17365" ph="select count... Category" />
-            <marker date="1524323500497" expanded="true" signature="17453:17576" ph="Select Categ... Category" />
-            <marker date="1524323500497" expanded="true" signature="17634:17745" ph="INSERT INTO Template_has_category... " />
-            <marker date="1524323500497" expanded="true" signature="18040:18083" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="18168:18209" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="18268:18372" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="18470:18565" ph="INSERT INTO Category_has_Item... " />
-            <marker date="1524323500497" expanded="true" signature="18676:18719" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="18814:18852" ph="INSERT INTO Item... " />
-            <marker date="1524323500497" expanded="true" signature="18929:18970" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="19030:19134" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="19234:19329" ph="INSERT INTO Category_has_Item... " />
-            <marker date="1524323500497" expanded="true" signature="19499:19603" ph="INSERT INTO Category... " />
-            <marker date="1524323500497" expanded="true" signature="19720:19830" ph="INSERT INTO Template_has_category... " />
-            <marker date="1524323500497" expanded="true" signature="20116:20159" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="20244:20285" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="20344:20447" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="20545:20639" ph="INSERT INTO Category_has_Item... " />
-            <marker date="1524323500497" expanded="true" signature="20750:20793" ph="select count... Item" />
-            <marker date="1524323500497" expanded="true" signature="20887:20925" ph="INSERT INTO Item... " />
-            <marker date="1524323500497" expanded="true" signature="21000:21041" ph="select Itemi... Item" />
-            <marker date="1524323500497" expanded="true" signature="21100:21203" ph="select count... Category_has_item" />
-            <marker date="1524323500497" expanded="true" signature="21301:21395" ph="INSERT INTO Category_has_Item... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exp.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -399,10 +282,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/js/IAT.js">
+    <entry file="file://$PROJECT_DIR$/output/赖业寅-01:30:53.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/writebasicInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="459" column="0" lean-forward="true" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <marker date="1524290686518" expanded="true" signature="992:1207" ph="INSERT INTO `userinfo`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/js/IAT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="298" column="23" lean-forward="true" selection-start-line="298" selection-start-column="23" selection-end-line="298" selection-end-column="23" />
           <folding>
             <marker date="1524324921753" expanded="true" signature="10431:10461" ph="..." />
             <marker date="1524324921753" expanded="true" signature="11142:11172" ph="..." />
@@ -414,6 +323,44 @@
             <marker date="1524324921753" expanded="true" signature="13117:13676" ph="..." />
             <marker date="1524324921753" expanded="true" signature="13158:13666" ph="..." />
             <marker date="1524324921753" expanded="true" signature="13200:13658" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/fileManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7200">
+          <caret line="480" column="13" lean-forward="true" selection-start-line="480" selection-start-column="13" selection-end-line="480" selection-end-column="13" />
+          <folding>
+            <marker date="1524331811193" expanded="true" signature="4098:4107" ph="..." />
+            <marker date="1524331811193" expanded="true" signature="4481:4490" ph="..." />
+            <marker date="1524331811193" expanded="true" signature="14810:14898" ph="select * fro... Template" />
+            <marker date="1524331811193" expanded="true" signature="14954:15160" ph="INSERT INTO Result... " />
+            <marker date="1524331811193" expanded="true" signature="16480:16538" ph="INSERT INTO INSERT... " />
+            <marker date="1524331811193" expanded="true" signature="16610:16706" ph="INSERT INTO Template... " />
+            <marker date="1524331811193" expanded="true" signature="17221:17342" ph="select count... Category" />
+            <marker date="1524331811193" expanded="true" signature="17430:17553" ph="Select Categ... Category" />
+            <marker date="1524331811193" expanded="true" signature="17611:17722" ph="INSERT INTO Template_has_category... " />
+            <marker date="1524331811193" expanded="true" signature="18017:18060" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="18145:18186" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="18245:18349" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="18447:18542" ph="INSERT INTO Category_has_Item... " />
+            <marker date="1524331811193" expanded="true" signature="18653:18696" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="18791:18829" ph="INSERT INTO Item... " />
+            <marker date="1524331811193" expanded="true" signature="18906:18947" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="19007:19111" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="19211:19306" ph="INSERT INTO Category_has_Item... " />
+            <marker date="1524331811193" expanded="true" signature="19476:19580" ph="INSERT INTO Category... " />
+            <marker date="1524331811193" expanded="true" signature="19697:19807" ph="INSERT INTO Template_has_category... " />
+            <marker date="1524331811193" expanded="true" signature="20093:20136" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="20221:20262" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="20321:20424" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="20522:20616" ph="INSERT INTO Category_has_Item... " />
+            <marker date="1524331811193" expanded="true" signature="20727:20770" ph="select count... Item" />
+            <marker date="1524331811193" expanded="true" signature="20864:20902" ph="INSERT INTO Item... " />
+            <marker date="1524331811193" expanded="true" signature="20977:21018" ph="select Itemi... Item" />
+            <marker date="1524331811193" expanded="true" signature="21077:21180" ph="select count... Category_has_item" />
+            <marker date="1524331811193" expanded="true" signature="21278:21372" ph="INSERT INTO Category_has_Item... " />
           </folding>
         </state>
       </provider>
