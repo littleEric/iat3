@@ -9,5 +9,6 @@ CREATE TABLE `userinfo` (
   `ifmarried` varchar(32) DEFAULT NULL,
   `doe` varchar(20) DEFAULT NULL,
   `wt` varchar(20) DEFAULT NULL,
+  `updata_time` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8

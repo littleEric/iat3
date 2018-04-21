@@ -467,7 +467,7 @@ if( isset($_REQUEST['op']) )
 
 					$data = $_REQUEST["data"]; 
 					$datetxt = microtime();
-					$fh = fopen($folder_dir . "-" . $sub . '-' . $datetxt . '.txt', 'w');
+					$fh = fopen($folder_dir . $sub . '-' . $datetxt . '.txt', 'w');
                     //file_put_contents( $fh, $data, FILE_APPEND|LOCK_EX );
 					fwrite($fh, $data);
 					fclose($fh);

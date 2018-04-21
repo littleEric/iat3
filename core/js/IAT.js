@@ -457,10 +457,20 @@ function WriteFile()
 			
 		}
 	}
-	
-	
-    $.post("core/fileManager.php", { 'op':'writeoutput', 'template':template.name, 
- 			'subject': subject, 'data': str });
+
+    $.ajax({
+				type: "POST",
+				url: "core/fileManager.php",
+				data: {'op':'writeoutput', 'template':template.name, 'subject': subject, 'data': str},
+				async:false,
+				dataType: "json",
+				success:function (msg) {
+					console.log(msg);
+                }
+			});
+	// "core/fileManager.php",
+	// 	{ 'op':'writeoutput', 'template':template.name, 'subject': subject, 'data': str }
+	// 	);
  	
 	// notify user of success?
 }
