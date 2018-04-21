@@ -461,18 +461,17 @@ if( isset($_REQUEST['op']) )
 				if( isset($_REQUEST['data']) )
 				{	
 					
-					$folder_dir = "../templates/".$_REQUEST['template']."/output/";
-
+					$folder_dir = "../output/";
+					//姓名
 					$sub = isset( $_REQUEST['subject'] ) ? $_REQUEST['subject'] : 'unknown2' ;
 
 					$data = $_REQUEST["data"]; 
-					$datetxt = date('Y-m-d-H-s');
-					$fh = fopen($folder_dir. $_REQUEST['template'] . "-" . $sub . '-' . $datetxt . '.txt', 'w');
+					$datetxt = microtime();
+					$fh = fopen($folder_dir . "-" . $sub . '-' . $datetxt . '.txt', 'w');
+                    //file_put_contents( $fh, $data, FILE_APPEND|LOCK_EX );
 					fwrite($fh, $data);
 					fclose($fh);
-					
-					
-									
+					echo filesize($fh);
 				}
 				else
 				{
