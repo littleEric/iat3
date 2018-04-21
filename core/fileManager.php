@@ -466,12 +466,11 @@ if( isset($_REQUEST['op']) )
 					$sub = isset( $_REQUEST['subject'] ) ? $_REQUEST['subject'] : 'unknown2' ;
 
 					$data = $_REQUEST["data"]; 
-					$datetxt = microtime();
+					$datetxt = date("H:i:s");
 					$fh = fopen($folder_dir . $sub . '-' . $datetxt . '.txt', 'w');
                     //file_put_contents( $fh, $data, FILE_APPEND|LOCK_EX );
 					fwrite($fh, $data);
 					fclose($fh);
-					echo filesize($fh);
 				}
 				else
 				{
