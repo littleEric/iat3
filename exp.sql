@@ -6,5 +6,8 @@ CREATE TABLE `userinfo` (
   `tel` varchar(32) NOT NULL,
   `industry` varchar(32) NOT NULL,
   `job` varchar(32) NOT NULL,
+  `ifmarried` varchar(32) DEFAULT NULL,
+  `doe` varchar(20) DEFAULT NULL,
+  `wt` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=60 DEFAULT CHARSET=utf8
+) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8
