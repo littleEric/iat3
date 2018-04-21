@@ -24,7 +24,7 @@
 <body>
     
 <div id="instructions">
-    请开启浏览器的JavaScript功能！
+
 </div>
 
 </body>

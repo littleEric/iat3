@@ -11,6 +11,9 @@ $birthyear = $_POST['birthyear'];
 $tel = $_POST['tel'];
 $industry = $_POST['industry'];
 $job = $_POST['job'];
+$ifmarried = $_POST['ifmarried'];
+$doe = $_POST['doe'];
+$wt = $_POST['wt'];
 
 $mysql_conf = array(
     'host'    => '127.0.0.1:8889',
@@ -36,7 +39,7 @@ if (!$select_db) {
     die("could not connect to the db:\n" .  $mysqli->error);
 }
 
-$sql = "INSERT INTO `userinfo`(`name`, `gender`, `birthyear`, `tel`, `industry`, `job`) VALUES ('{$name}','{$gender}','{$birthyear}','{$tel}','{$industry}','{$job}');";
+$sql = "INSERT INTO `userinfo`(`name`, `gender`, `birthyear`, `tel`, `industry`, `job`, `ifmarried`, `doe`, `wt`) VALUES ('{$name}','{$gender}','{$birthyear}','{$tel}','{$industry}','{$job}','{$ifmarried}','{$doe}','{$wt}');";
 
 $res = $mysqli->query($sql);
 if (!$res) {

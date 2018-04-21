@@ -54,6 +54,7 @@
                     </label>
                 </div>
             </div>
+
             <div class="form-group">
                 <label class="col-sm-2 control-label">出生年份</label>
                 <div class="col-sm-10">
@@ -68,12 +69,41 @@
             </div>
 
             <div class="form-group">
+                <label class="col-sm-2 control-label">婚姻状况</label>
+                <div class="col-sm-10">
+                    <label class="radio-inline">
+                        <input type="radio" name="ifmarried" id="married" value="已婚" checked="checked"> 已婚
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ifmarried" id="unmarried" value="未婚"> 未婚
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">文化程度</label>
+                <div class="col-sm-10">
+                    <select id="doe" name="doe" class="form-control">
+                        <option value="小学">小学</option>
+                        <option value="初中">初中</option>
+                        <option value="高中">高中</option>
+                        <option value="专科">专科</option>
+                        <option value="本科">本科</option>
+                        <option value="硕士研究生">硕士研究生</option>
+                        <option value="博士研究生">博士研究生</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">手机号</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="tel" name="tel"
                            placeholder="请输入您的手机号">
                 </div>
             </div>
+
+
 
             <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">所处行业</label>
@@ -88,6 +118,17 @@
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="job" name="job"
                            placeholder="请输入您的职务">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">您在该企业的工作年限</label>
+                <div class="col-sm-10">
+                    <select id="wt" name="wt" class="form-control">
+                        <option value="1~3">1~3年</option>
+                        <option value="4~6">4~6年</option>
+                        <option value=">7">7年以上</option>
+                    </select>
                 </div>
             </div>
 
@@ -170,10 +211,15 @@
             tel = $.trim($('#tel').val());
             industry = $.trim($("#industry").val());
             job = $.trim($("#job").val());
+            ifmarried = $("input[name=ifmarried]:checked").val();
+            doe = $("#doe option:selected").val();
+            wt = $("#wt option:selected").val();
 
-            var info = "name=" + name + "&gender=" + gender + "&birthyear=" + birthyear + "&tel="+tel+"&industry="+industry+"&job="+job;
+            var info = "name=" + name + "&gender=" + gender + "&birthyear=" + birthyear + "&tel="+tel+"&industry="+industry+"&job="+job
+                        +"&ifmarried=" + ifmarried + "&doe=" + doe + "&wt=" + wt;
 
             console.log(info);
+
             e.preventDefault();
             var $form = $(e.target);
             var bv = $form.data('bootstrapValidator');
