@@ -1,9 +1,9 @@
 CREATE TABLE `userinfo` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(32) NOT NULL,
+  `uuid` varchar(32) DEFAULT NULL,
+  `tel` varchar(32) NOT NULL,
   `gender` enum('Male','Female') NOT NULL,
   `birthyear` varchar(32) NOT NULL,
-  `tel` varchar(32) NOT NULL,
   `industry` varchar(32) NOT NULL,
   `job` varchar(32) NOT NULL,
   `ifmarried` varchar(32) DEFAULT NULL,
