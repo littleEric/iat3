@@ -8,10 +8,12 @@
 <body>
 <div class="thanksmaindiv">
     <div class="thankssub">
-        <span>谢谢您的配合!</span><br><br>
-        <span>测试成功的请扫描二维码领取奖励。</span><br><br>
-        <img src="img/qrcode.jpeg" class="img"><br>
-        <span>领取奖励并继续完成后续测试，我们将测试的结果分享给您！</span>
+        <span>谢谢您的支持！</span><br><br><br>
+        <span>如果您对本测试感兴趣，<br>并想得知您的测试结果，</span><br><br><br>
+        <span>可以联系我们：<br>电话</span><span class="telspan">15602493770</span><br>
+        <span>或</span><br>
+        <span>邮箱</span><span class="mailspan">81533904@qq.com，</span><br><br>
+        <span>我们将把测试结果发给您。</span>
     </div>
 
 </div>
