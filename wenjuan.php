@@ -37,12 +37,13 @@
     <div class="maindiv" id="surveylist">
         <form id="demographics" class="form-horizontal" role="form">
             <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">姓名</label>
+                <label for="name" class="col-sm-2 control-label">手机尾号</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="name" name="name"
-                           placeholder="请输入您的姓名">
+                    <input type="text" class="form-control" id="tel" name="tel"
+                           placeholder="请输入手机号后6位">
                 </div>
             </div>
+
             <div class="form-group">
                 <label class="col-sm-2 control-label">性别</label>
                 <div class="col-sm-10">
@@ -94,15 +95,6 @@
                     </select>
                 </div>
             </div>
-
-            <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">手机号</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="tel" name="tel"
-                           placeholder="请输入您的手机号">
-                </div>
-            </div>
-
 
 
             <div class="form-group">
@@ -174,8 +166,8 @@
                             message: '手机号不能为空'
                         },
                         regexp: {
-                            regexp: /^[1][3,4,5,7,8][0-9]{9}$/,
-                            message: '手机号格式输入有误'
+                            regexp: /^[0-9]{6}$/,
+                            message: '请输入6位数字的手机尾号'
                         }
                     }
                 },
@@ -205,7 +197,6 @@
                 }
             }
         }).on('success.form.bv',function (e) {
-            name = $.trim($("#name").val());
             gender = $("input[name=gender]:checked").val();
             birthyear = $("#birthyear option:selected").val();
             tel = $.trim($('#tel').val());
@@ -215,10 +206,8 @@
             doe = $("#doe option:selected").val();
             wt = $("#wt option:selected").val();
 
-            var info = "name=" + name + "&gender=" + gender + "&birthyear=" + birthyear + "&tel="+tel+"&industry="+industry+"&job="+job
+            var info = "gender=" + gender + "&birthyear=" + birthyear + "&tel="+tel+"&industry="+industry+"&job="+job
                         +"&ifmarried=" + ifmarried + "&doe=" + doe + "&wt=" + wt;
-
-            console.log(info);
 
             e.preventDefault();
             var $form = $(e.target);
@@ -229,7 +218,7 @@
                 data: info,
                 dataType: "json",
                 success: function(data) {
-                    window.location.replace(data.location+"?name="+data.name);
+                    window.location.replace(data.location+"?uuid="+data.uuid);
                     //console.log(data.location);
                 }
             });
