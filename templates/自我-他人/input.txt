@@ -32,13 +32,13 @@
         "datalabel": "cg",
         "itemtype": "txt",
         "items": [
-            "\u96c4\u5fc3\u58ee\u5fd7",
-            "\u6301\u4e4b\u4ee5\u6052",
-            "\u597d\u5947\u6c42\u77e5",
-            "\u52e4\u594b",
-            "\u9ad8\u6548",
-            "\u4e0a\u8fdb",
-            "\u6709\u80fd\u529b"
+            "\u96c4\u5fc3\u58ee\u5fd7\u7684",
+            "\u597d\u5947\u6c42\u77e5\u7684",
+            "\u52e4\u594b\u4e0a\u8fdb\u7684",
+            "\u9ad8\u6548\u7387\u7684",
+            "\u6210\u529f\u7684",
+            "\u6709\u80fd\u529b\u7684",
+            "\u6301\u4e4b\u4ee5\u6052\u7684"
         ]
     },
     "cat2": {
@@ -46,13 +46,13 @@
         "datalabel": "bcg",
         "itemtype": "txt",
         "items": [
-            "\u61d2\u60f0",
-            "\u62d6\u5ef6\u75c7",
-            "\u534a\u9014\u800c\u5e9f",
-            "\u51b7\u6f20",
-            "\u5f97\u8fc7\u4e14\u8fc7",
-            "\u4f4e\u6548",
-            "\u6ca1\u80fd\u529b"
+            "\u61d2\u60f0\u62d6\u5ef6\u7684",
+            "\u534a\u9014\u800c\u5e9f\u7684",
+            "\u6f20\u4e0d\u5173\u5fc3\u7684",
+            "\u5f97\u8fc7\u4e14\u8fc7\u7684",
+            "\u4f4e\u6548\u7387\u7684",
+            "\u5931\u8d25\u7684",
+            "\u7f3a\u4e4f\u80fd\u529b\u7684"
         ]
     }
 }
